@@ -1,0 +1,10 @@
+SELECT
+parcel_id
+,parcel_tracking
+,transporter
+,priority
+,date_purchase
+,date_shipping
+,date_delivery
+,datecancelled AS date_cancelled
+from `glossy-ally-393108.raw_data_circle.raw_cc_parcel`
