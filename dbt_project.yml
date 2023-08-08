@@ -30,12 +30,12 @@ clean-targets: # directories to be removed by `dbt clean`
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  stg_cc_parcel:
+  cc_parcel:
     +materialized: table
     staging :
       schema : 'staging'
 
-    stg_cc_parcel_products:
+    cc_parcel_products:
       +materialized: table
       staging :
       schema : 'staging'
