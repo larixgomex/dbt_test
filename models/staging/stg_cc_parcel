@@ -1,10 +1,10 @@
 SELECT
-parcel_id
-,parcel_tracking
-,transporter
-,priority
-,date_purchase
-,date_shipping
-,date_delivery
-,datecancelled AS date_cancelled
-from `glossy-ally-393108.raw_data_circle.raw_cc_parcel`
+    Parcel_id AS parcel_id,
+    Parcel_tracking AS parcel_tracking,
+    Transporter AS transporter,
+    Priority AS priority,
+    CAST(Date_purCHase AS DATE) AS date_purchase,
+    CAST(Date_sHIpping AS DATE) AS date_shipping,
+    CAST(DATE_delivery AS DATE) AS date_delivery,
+    CAST(datecancelled AS DATE) AS date_cancelled
+FROM `raw_data_circle.raw_cc_parcel`;
