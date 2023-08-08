@@ -1,3 +1,4 @@
+
 SELECT
 parcel_id
 ,model_mame AS model_name

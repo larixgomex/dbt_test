@@ -1,0 +1,3 @@
+select *
+select *
+from from {{ ref(stg_cc_parcel) }}
