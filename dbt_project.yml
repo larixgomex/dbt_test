@@ -39,3 +39,5 @@ models:
       +materialized: table
       tests:
         - unique
+        - not_null
+        
