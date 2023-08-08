@@ -32,11 +32,10 @@ clean-targets: # directories to be removed by `dbt clean`
 models:
   cc_parcel:
     +materialized: table
-    staging :
-      schema : 'staging'
+    staging:
+      schema: "staging"
 
     cc_parcel_products:
       +materialized: table
-      staging :
-      schema : 'staging'
-        
+      staging:
+      schema: "staging"
