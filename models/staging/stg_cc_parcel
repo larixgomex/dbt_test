@@ -7,4 +7,4 @@ SELECT
     CAST(Date_sHIpping AS DATE) AS date_shipping,
     CAST(DATE_delivery AS DATE) AS date_delivery,
     CAST(datecancelled AS DATE) AS date_cancelled
-FROM `raw_data_circle.raw_cc_parcel`;
+FROM `raw_data_circle.raw_cc_parcel`
